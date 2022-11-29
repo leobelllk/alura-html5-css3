@@ -1,25 +1,115 @@
-main{
+main {
     width: 940px;
     margin: 0 auto;
 }
 
-form{
+form {
     margin: 40px 0;
 }
 
-form label{
+form label,
+form legend {
     display: block;
-    font-size: 30px;
+    font-size: 20px;
     margin: 5px 0;
     color: white;
+    text-align: left;
 }
 
-form input{
+.form {
+    display: flex;
+    width: 940px;
+}
+
+.inputs-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.input-coluna {
+    display: block;
     margin: 25px 0;
     padding: 10px;
-    width: 50%;     
+    width: 50%;
+    
+    border-radius: 30px;
+    background-color: rgba(80, 31, 196, 0.5);
+    border: 2px solid rgb(119, 77, 216);
 }
 
-#button{
-    width: 200px;
+.checkbox {
+    margin: 20px 0;
+    font-size: 17px;
+}
+
+.selector {
+    margin: 20px 0;
+}
+
+.selector p{
+    font-size: 17px;
+}
+
+fieldset {
+    border: none;
+}
+
+.radio_input {
+    font-size: 15px;
+}
+
+#button {
+    font-weight: bold;
+    cursor: pointer;
+    padding: 15px 0;
+    color: white;
+    border-radius: 30px;
+    background-color: rgb(119, 77, 216);
+    transition: 1s all;
+}
+
+#button:hover {
+    background-color: rgb(76, 0, 253);
+    border: 2px solid rgb(32, 0, 105);
+    transform: scale(1.1);
+}
+
+.table{
+    margin: 0 auto;
+}
+
+table tr{
+    color: white;
+    background-color: rgba(80, 31, 196, 0.5);
+}
+
+table td {
+    padding: 8px 15px;
+    border: 2px solid rgb(119, 77, 216);
+}
+
+table th{
+    border: 2px solid rgb(119, 77, 216);
+}
+
+#date {
+    width: 400px;
+    padding: 30px 0;
+    border-radius: 30px;
+    background-color: rgba(80, 31, 196, 0.5);
+    border: 2px solid rgb(119, 77, 216);
+    color: white;
+    text-align: center;
+
+}
+
+#select {
+    color: white;
+    width: 400px;
+    padding: 30px 0;
+    border-radius: 30px;
+    background-color: rgba(80, 31, 196, 0.5);
+    border: 2px solid rgb(119, 77, 216);
+    text-align: center;
 }
