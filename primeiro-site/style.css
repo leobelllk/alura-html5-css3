@@ -5,7 +5,7 @@ body {
     font-style: 'Lexend', sans-serif;
 }
 
-p {
+.intro {
     text-align: center;
     color: aliceblue;
 }
@@ -55,3 +55,44 @@ p {
     font-size: 20px;
     font-weight: bolder;
 }
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    width: 350px;
+}
+
+.turbo-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    gap: px;
+    text-transform: uppercase;
+}
+
+a:hover{
+    background-color: rgba(80, 31, 196, 0.5);
+    border: 2px solid rgb(119, 77, 216);
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.conteudo-local{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.conteudo-local-texto{
+    text-align: left;
+    color: white;
+    font-size: 1.5rem;
+}
+
